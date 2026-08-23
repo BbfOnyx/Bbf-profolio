@@ -1,0 +1,459 @@
+body{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+    background-image: url(./background_image/ChatGPT\ Image\ Aug\ 19\,\ 2026\,\ 11_04_35\ AM.png);
+    display: flex;
+    flex-flow: column;
+    /* gap: 3px; */
+}
+/* After the body you first element is header */
+header{
+    /* border: 2px solid gold ; */
+    max-width: 1200px;
+    color: rgb(237, 240, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* background-color: rgb(10, 10, 10); */
+    text-decoration: none;
+}
+header a{
+    /* border: 2px solid #ffffff; */
+    color: rgba(223, 222, 221, 0.973);
+}
+/* In the header the first thing you will get is your logo */
+#logo {
+    /* border: 4px solid; */
+    /* align-items: center; */
+    color: purple
+}
+/* After the logo you get the nav */
+nav{
+    /* border: 4px solid blue; */
+    display: flex;
+    flex-flow: row;
+    gap: 30px;
+    color: rgb(219, 222, 224);
+}
+li,a{
+    text-decoration: none;
+    list-style: none;
+}
+/* calling out our first section */
+.hero{
+    /* border: 2px solid gold; */
+    height: 50vh;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: flex-start;
+    padding: 4rem;
+    gap: 3rem;
+    width: 100%;
+    max-width: 12000px;
+}
+/* calling out it's contents */
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* border: 2px solid white; */
+    /* margin: 90px; */
+    flex: 1;
+    margin-right: 300px;
+    max-width: 550px;
+    height: 100vh;
+    /* margin-top: 30px; */
+}
+.intro{
+    /* border: 2px solid gold; */
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+.description{
+    /* border: 2px solid green; */
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}
+span{
+    /* border: blue solid 4px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color: blueviolet;
+    font-weight: bolder;
+}
+/* our first paragragh */
+.paragragh{
+    /* border: 2px solid green; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    line-height: 1.6;
+    max-width: 500px;
+}
+/* then i'm styling my button */
+.btn{
+    border: 2px solid white;
+    padding: 25px 15px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+/* the image */
+.hero-image img{
+    width: 350px;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgb(206, 15, 180);
+    box-shadow: 0 20px 40px;
+}
+/* the div that contains the image */
+.hero-image{
+    /* border: solid 2px; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+/* the 'contact me' buttons */
+.btn-outline{
+    background-color: black;
+}
+/* the social icons for the hero section */
+.social-icons{
+    display: flex;
+    gap: 12px;
+    margin-top: 30px;
+}
+.social-icons a{
+    /* border: 2px solid purple; */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.social-icons img{
+    width: 30px;
+    height: 50px;
+    object-fit: contain;
+}
+/* the second section "about" */
+.about{
+    /* border: 2px solid gold; */
+    background: #131318;
+    border-radius: 5px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+    margin: 60px auto;
+    width: 100vw;
+    max-width: 1200px;
+}
+/* The div in the first section, a bit negligible */
+.about-me-content{
+    /* display: flex; */
+    gap: 50px;
+    align-items: center;
+    align-items: flex-start;
+}
+/* the big "about me" writtien at the top */
+.about-label{
+    /* border: #9b9ba8 solid 2px; */
+    color: purple;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    /* margin-top: 100px; */
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+}
+/* the "get to know me" */
+.about-title{
+    /* border: 2px solid blue */
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: -5px;
+}
+/* the paragragh */
+.about-text p{
+    /* border: 2px solid red; */
+    color: #9b9ba8;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+/* the download cv button */
+.cv-btn{
+    border: 2px solid purple;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+/* The div that has info-item */
+.info-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 12px;
+}
+/* the emojis */
+.info-icon{
+    font-size: 25px;
+}
+/* The dive that has Info-label */
+.info-label{
+    font-weight: bold;
+    color: gray
+}
+/* The dive that has Info-value */
+.info-value{
+    color: white;
+    font-size: 16px
+}
+/* first section */
+#first-section{
+    /* border: 2px solid white; */
+    width: 500px;
+}
+/* secon section */
+.second-section{
+    /* border: solid 2px gold; */
+    /* border-left: 2px solid rgb(15, 14, 15); */
+    margin-top: 50px;
+}
+/* last section */
+.last-section{
+    /* border: 2px solid; */
+    /* border-left: 2px solid white; */
+    margin-top: 50px; 
+}
+/*  */
+#skills{
+    /*border: solid 2px blue;
+    */background-color: #1a1a35;
+    border-radius: 5px;
+    padding: 48px;
+    padding-top: 2px;
+    width: 100vw;
+    max-width: 1200px;
+    margin: 40px auto;
+    margin-top: -30px;
+}
+.skills-grid {
+    /* border: solid 2px blue; */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.section-title{
+    /* border: solid 2px blue; */
+    color: white;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+.title-underline{
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: orange;
+    margin: 0 auto 40px auto;
+    border-radius: 2px;
+}
+.skill-card {
+    border: solid 1px #2a2a35;
+    border-radius: 14px;
+    padding: 20px;
+    background: #111111;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+.progress-bar {
+    width: 100%;
+    height: 4px;
+    background: darkgray;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 24px;
+}
+.progress-fill{
+    height: 100%;
+    background: orange;
+}
+@media (max-width: 450px) {
+
+  /* ===== HEADER ===== */
+  header {
+    padding: 10px 14px;
+  }
+  #logo {
+    font-size: 16px;
+  }
+  nav {
+    gap: 10px;
+  }
+  nav a {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    padding: 16px;
+    gap: 10px;
+  }
+  .hero-content {
+    margin-right: 0;
+    height: auto;
+    max-width: 55%;
+    flex: 1;
+  }
+  .intro {
+    font-size: 9px;
+  }
+  span {
+    font-size: 18px;
+  }
+  .description {
+    font-size: 9px;
+  }
+  .paragragh {
+    font-size: 8px;
+    line-height: 1.4;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin-top: 6px;
+  }
+  .btn {
+    padding: 8px 10px;
+    font-size: 9px;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  .social-icons a {
+    /* width: 20px; */
+    height: 20px;
+    /* font-size: 10px; */
+    margin: 0;
+  }
+
+  .hero-image {
+    flex: 1;
+  }
+  .hero-image img {
+    width: 30vw;
+    height: 30vw;
+    max-width: 110px;
+    max-height: 110px;
+  }
+
+  /* ===== ABOUT ===== */
+  .about {
+    flex-direction: row;
+    padding: 14px;
+    gap: 8px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  #first-section {
+    width: auto;
+    flex: 1.4;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .about-label {
+    font-size: 7px;
+  }
+  .about-title {
+    font-size: 7px;
+    line-height: 1.3;
+    margin-bottom: 6px;
+  }
+  .about-text p {
+    font-size: 4px;
+    line-height: 0.7;
+  }
+  .cv-btn {
+    font-size: 8px;
+    padding: 5px 8px;
+  }
+  .info-icon {
+    font-size: 10px;
+  }
+  .info-label {
+    font-size: 7px;
+  }
+  .info-value {
+    font-size: 7px;
+  }
+  .second-section, .last-section {
+    flex: 1;
+    min-width: 0;
+  }
+
+  /* ===== SKILLS ===== */
+  #skills {
+    padding: 14px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .section-title {
+    font-size: 16px;
+  }
+  .title-underline {
+    margin-bottom: 16px;
+  }
+  .skills-grid {
+    flex-direction: row;
+    gap: 6px;
+  }
+  .skill-card {
+    padding: 6px;
+  }
+  .skill-icon {
+    font-size: 10px;
+  }
+  .skill-name {
+    font-size: 8px;
+  }
+  .skill-percent {
+    font-size: 7px;
+  }
+
+}
